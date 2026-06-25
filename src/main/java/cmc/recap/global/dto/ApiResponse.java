@@ -1,5 +1,6 @@
 package cmc.recap.global.dto;
 
+import cmc.recap.global.exception.ErrorCode;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
