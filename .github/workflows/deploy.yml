@@ -37,7 +37,7 @@ jobs:
         with:
           context: .
           push: true
-          platforms: linux/arm64   # t4g.micro ARM64
+          platforms: linux/arm64
           tags: ghcr.io/${{ github.repository_owner }}/recap-api:latest
 
       - name: Deploy to EC2
