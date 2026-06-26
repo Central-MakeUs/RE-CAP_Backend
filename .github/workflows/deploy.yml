@@ -40,7 +40,7 @@ jobs:
         with:
           context: .
           push: true
-          platforms: linux/arm64
+          platforms: linux/amd64
           tags: ghcr.io/${{ env.OWNER }}/recap-api:latest
 
       - name: Deploy to EC2
